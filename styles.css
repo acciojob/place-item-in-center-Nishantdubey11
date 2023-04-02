@@ -1,2 +1,15 @@
 
 /* Your CSS Code here. */
+/* Define styles for the container element */
+#element-holder {
+  display: flex; /* Use flexbox layout */
+  justify-content: center; /* Center items horizontally */
+  align-items: center; /* Center items vertically */
+}
+
+/* Define styles for the first child element */
+#item-1 {
+  /* Specify that this element should take up the entire width of the container */
+  width: 100%;
+  text-align: center; /* Center the contents of the element */
+}
